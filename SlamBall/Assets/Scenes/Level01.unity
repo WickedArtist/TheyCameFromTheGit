@@ -1162,10 +1162,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528961993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1043e32ecd868e146bddad48a042ebaa, type: 3}
+  m_Script: {fileID: 11500000, guid: b0aca9df15842c94683025f40f416fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 2105086577}
+  movespeed: 0
+  jumpForce: 0
 --- !u!1 &1727858662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,7 +1538,7 @@ PrefabInstance:
     - target: {fileID: 6239305192040381425, guid: bedc1f74c3ba9d14f89774523f474182,
         type: 3}
       propertyPath: m_Name
-      value: Ball
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6239305192040381425, guid: bedc1f74c3ba9d14f89774523f474182,
         type: 3}
@@ -1599,5 +1600,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6239305192040381424, guid: bedc1f74c3ba9d14f89774523f474182,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1528961994, guid: bedc1f74c3ba9d14f89774523f474182, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bedc1f74c3ba9d14f89774523f474182, type: 3}
