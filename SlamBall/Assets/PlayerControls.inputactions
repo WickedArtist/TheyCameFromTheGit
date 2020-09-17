@@ -1,0 +1,117 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "e816d35d-66d2-4808-9c2a-e9169d6f682c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "1fa10814-f0d6-4168-b79c-86c9924f2d08",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grow",
+                    "type": "Value",
+                    "id": "0a099a39-f7fc-430d-b462-1c8ccf72e0e5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shrink",
+                    "type": "Button",
+                    "id": "b531a4eb-1d41-4c85-84d4-21417766d7b0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "ad0bfc8a-8473-4245-93e6-d4a430302918",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=0.7)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "742eb8c1-b626-40ad-8199-8d66494db669",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "Hold(duration=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shrink",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f94ee63b-565e-44a0-a9b0-95dd8888800c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "Hold(duration=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e44bab66-27ce-46a0-850a-68ddf0adb7ee",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Hold(duration=0.4)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22a3c67a-e966-43cc-abae-c97ea21f9116",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Menu",
+            "id": "8c90be83-9027-40dc-ab95-81b1e6d6be58",
+            "actions": [
+                {
+                    "name": "Join Game",
+                    "type": "Button",
+                    "id": "63f68a3c-86a9-40f1-af8d-f28e220a57ac",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a1a3f490-65c2-4c70-94a8-542a773de7d2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Join Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
