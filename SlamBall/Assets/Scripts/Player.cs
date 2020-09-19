@@ -58,5 +58,6 @@ public class Player : MonoBehaviour
             rb2d.transform.Translate((Vector2.right * movespeed * Time.fixedDeltaTime));
         }
     }
+
 }
 
