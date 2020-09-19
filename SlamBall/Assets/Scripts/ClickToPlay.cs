@@ -6,10 +6,16 @@ using UnityEngine.SceneManagement;
 public class ClickToPlay : MonoBehaviour
 {
 
-    public void PlayGame()
+    private void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-
+    void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            PlayGame();
+        }
+    }
 }
