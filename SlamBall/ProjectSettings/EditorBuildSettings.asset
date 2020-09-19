@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Click To Play.unity
     guid: c3710acd45bcaed4b91f7fb68ce9c7a2
   - enabled: 1
-    path: Assets/Scenes/Main Menu....unity
+    path: Assets/Scenes/Main Menu.unity
     guid: 87453592ce19686498f4859c57635769
   - enabled: 1
     path: Assets/Scenes/GameMode1.unity
