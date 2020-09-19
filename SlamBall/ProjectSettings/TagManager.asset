@@ -16,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - Environment
-  - Player
+  - 
+  - 
   - 
   - 
   - 
@@ -55,7 +55,4 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1232793607
-    locked: 0
-  - name: Player
-    uniqueID: 1553402691
     locked: 0

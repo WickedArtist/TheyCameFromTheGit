@@ -6,11 +6,6 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseUI;
 
-    void Awake()
-    {
-        Time.timeScale = 0f;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,13 +18,11 @@ public class PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && !pauseUI.activeInHierarchy)
         {
             pauseUI.SetActive(true);
-            Time.timeScale = 0f;
             Debug.Log("settrue");
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && pauseUI.activeInHierarchy)
         {
             pauseUI.SetActive(false);
-            Time.timeScale = 1f;
             Debug.Log("setfalse");
         }
     }

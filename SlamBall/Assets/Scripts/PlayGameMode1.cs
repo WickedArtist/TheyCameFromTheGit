@@ -2,18 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayMode1 : MonoBehaviour
+public class PlayGameMode1 : MonoBehaviour
 {
 
-    void PlayGameMode1()
+    public void PlayGame1()
     {
-        Time.timeScale = 1f;
-
-
-
 
     }
-
 
 
 }
