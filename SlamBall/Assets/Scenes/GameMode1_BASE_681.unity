@@ -240,6 +240,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 95513527}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &97459506 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 5401188820334799816, guid: 24786991ef682a444a894c8e92712dca,
+    type: 3}
+  m_PrefabInstance: {fileID: 5401188820266388419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &181731396 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1618665498636932732, guid: 1ed4e7098f1c1164f836529bc3886a0e,
@@ -1219,6 +1225,7 @@ GameObject:
   - component: {fileID: 1457499651}
   - component: {fileID: 1457499650}
   - component: {fileID: 1457499649}
+  - component: {fileID: 1457499653}
   m_Layer: 0
   m_Name: GameBall
   m_TagString: Untagged
@@ -1326,6 +1333,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457499653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457499648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0436e51ef36fa3845a5254ee8541c521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1457499650}
+  player1ground: {fileID: 97459506}
+  player2ground: {fileID: 2084621109}
+  txtp1score: {fileID: 381150645}
+  txtp2score: {fileID: 826582714}
 --- !u!1 &1512235382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1790,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2084621109 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 5401188820334799816, guid: 24786991ef682a444a894c8e92712dca,
+    type: 3}
+  m_PrefabInstance: {fileID: 826707137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2105086577
 GameObject:
   m_ObjectHideFlags: 0
